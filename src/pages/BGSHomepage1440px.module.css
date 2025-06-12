@@ -1,0 +1,2997 @@
+.image1Icon {
+  height: 36px;
+  width: 142px;
+  object-fit: cover;
+}
+.image1Icon,
+.needAnyHelp {
+  position: relative;
+}
+.languageDropdownIcon {
+  height: 3.3px;
+  width: 6.7px;
+  position: relative;
+}
+.engParent,
+.helpMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.engParent {
+  border-radius: var(--br-4);
+  background-color: var(--color-darkslategray-100);
+  justify-content: center;
+  padding: var(--padding-4) var(--padding-8);
+  gap: 7px;
+  color: var(--White);
+}
+.helpMenu {
+  border-right: 1px solid var(--color-dimgray);
+  justify-content: flex-start;
+  padding: var(--padding-5) 17px var(--padding-5) 0;
+  gap: 25px;
+}
+.iconamoonsearch {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-12);
+}
+.avatarIcon {
+  height: 35px;
+  width: 35px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.menuRight,
+.userMenu {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.userMenu {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-24);
+}
+.menuRight {
+  gap: var(--gap-14);
+}
+.container,
+.header,
+.menuRight {
+  display: flex;
+  align-items: center;
+}
+.container {
+  width: 100%;
+  height: 36px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-20);
+  box-sizing: border-box;
+  gap: 0;
+  max-width: 1320px;
+}
+.header {
+  align-self: stretch;
+  background-color: var(--Darker);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-14) 0;
+  text-align: left;
+  font-size: var(--font-size-14);
+  color: var(--Accent);
+  font-family: var(--font-inter);
+}
+.chandlerBing,
+.welcomeBack {
+  position: relative;
+  line-height: 100%;
+}
+.welcomeBack {
+  align-self: stretch;
+}
+.chandlerBing {
+  margin: 0;
+  font-size: 39.3px;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--Darker);
+}
+.welcom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5);
+}
+.requestPayment1 {
+  position: relative;
+  font-size: var(--font-size-16);
+  line-height: 100%;
+  font-family: var(--font-inter);
+  color: var(--Dark1);
+  text-align: left;
+}
+.requestPayment {
+  cursor: pointer;
+  border: 1px solid var(--Accent);
+  padding: var(--padding-16) var(--padding-18);
+  background-color: transparent;
+  flex: 1;
+  border-radius: var(--br-4);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.sendMoneyChild {
+  width: 11.5px;
+  position: relative;
+  height: 8.9px;
+}
+.sendMoney {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-16) var(--padding-18);
+  background-color: transparent;
+  flex: 1;
+  border-radius: var(--br-4);
+  background: linear-gradient(
+    93.87deg,
+    var(--Accent),
+    var(--color-deepskyblue-100)
+  );
+  justify-content: center;
+  gap: var(--gap-10);
+}
+.buttonsSet,
+.sendMoney,
+.titleSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttonsSet {
+  width: 372px;
+  justify-content: flex-start;
+  gap: var(--gap-8);
+}
+.titleSection {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: 0;
+}
+.checkingAccount {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+}
+.streamlinebankIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.spacer {
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+}
+.checkingAccountParent,
+.streamlinebankParent {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-8);
+}
+.streamlinebankParent {
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--font-size-18);
+  color: var(--Dark1);
+}
+.checkingAccountParent {
+  width: 214px;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 0;
+}
+.cardIcon {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-32);
+  line-height: 100%;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--Darker);
+  z-index: 1;
+}
+.iconbars {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin: 0 !important;
+  top: 20px;
+  right: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.accountInfo,
+.cardaccount {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.cardaccount {
+  border-radius: var(--br-11);
+  background-color: var(--White);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-36) var(--padding-30);
+  position: relative;
+  gap: var(--gap-24);
+  max-width: 360px;
+}
+.accountInfo {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-12);
+  min-width: 500px;
+}
+.registerCardChild {
+  align-self: stretch;
+  width: 76.8px;
+  max-height: 100%;
+  object-fit: cover;
+}
+.haveDedicatedFinancial,
+.registerABusiness {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.registerABusiness {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.haveDedicatedFinancial {
+  font-size: var(--font-size-16);
+}
+.registerABusinessAccountParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4);
+}
+.setupYourAccount {
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+}
+.setupYourAccountParent {
+  border-radius: 17px;
+  background-color: var(--color-springgreen-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-8) var(--padding-16);
+  gap: 13px;
+  cursor: pointer;
+  font-size: var(--font-size-16);
+  color: var(--Accent);
+}
+.registerCard,
+.registerCardInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9px;
+}
+.registerCard {
+  flex: 0.9148;
+  border-radius: var(--br-11);
+  background-color: var(--color-deepskyblue-200);
+  border: 1px solid var(--color-deepskyblue-100);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-24) var(--padding-26);
+  gap: 23px;
+  min-width: 500px;
+  font-size: var(--font-size-20);
+  color: var(--Dark1);
+}
+.accountOverview,
+.overviewCards {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.overviewCards {
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: var(--gap-12);
+  font-size: var(--font-size-16);
+}
+.accountOverview {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-14);
+  text-align: left;
+  font-size: var(--font-size-18);
+  color: var(--Light-Text);
+  font-family: var(--font-inter);
+}
+.customise {
+  position: relative;
+  line-height: 130%;
+}
+.customiseWrapper,
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.customiseWrapper {
+  border-radius: 27px;
+  background-color: var(--color-springgreen-100);
+  justify-content: center;
+  padding: var(--padding-6) var(--padding-14);
+  font-size: var(--font-size-16);
+  color: var(--Accent);
+}
+.title {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: 0;
+}
+.icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+.add {
+  margin: 0;
+}
+.text {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-16);
+  line-height: 130%;
+  font-family: var(--font-inter);
+  color: var(--Dark1);
+  text-align: center;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.calltoactioncard {
+  cursor: pointer;
+  border: 1px solid var(--color-whitesmoke-100);
+  padding: var(--padding-16);
+  background-color: var(--White);
+  width: 133.3px;
+  border-radius: var(--br-11);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-14);
+}
+.text2 {
+  font-size: var(--font-size-16);
+  font-family: var(--font-inter);
+  color: var(--Dark1);
+  text-align: center;
+}
+.text2,
+.text6 {
+  align-self: stretch;
+  position: relative;
+  line-height: 130%;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.calltoactioncard6,
+.calltoactioncard8 {
+  width: 133.3px;
+  border-radius: var(--br-11);
+  background-color: var(--White);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-16);
+  gap: var(--gap-14);
+}
+.actionButtons,
+.quickActions {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.actionButtons {
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: var(--gap-10);
+  text-align: center;
+  font-size: var(--font-size-16);
+}
+.quickActions {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-14);
+  text-align: left;
+  font-size: var(--font-size-18);
+  color: var(--Dark1);
+  font-family: var(--font-inter);
+}
+.quickSend1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 130%;
+  font-weight: 600;
+}
+.peopleItemsIcon {
+  width: 60px;
+  height: 58px;
+  position: relative;
+  object-fit: contain;
+}
+.josephYoh {
+  align-self: stretch;
+  position: relative;
+  line-height: 130%;
+}
+.peopleItemsParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+}
+.avatarsIcon,
+.initialBackgrounds {
+  position: absolute;
+  border-radius: 50%;
+}
+.avatarsIcon {
+  top: 0;
+  left: 0;
+  width: 59.1px;
+  height: 58.5px;
+  object-fit: cover;
+}
+.initialBackgrounds {
+  top: -2px;
+  left: -2px;
+  background-color: var(--color-whitesmoke-100);
+  border: 0 solid var(--White);
+  box-sizing: border-box;
+  width: 21.2px;
+  height: 21.2px;
+}
+.d {
+  position: absolute;
+  top: 4.1px;
+  left: 4.6px;
+  line-height: 130%;
+  font-weight: 600;
+}
+.initialBackgroundsParent {
+  position: absolute;
+  top: 41.3px;
+  left: 41.9px;
+  width: 17.2px;
+  height: 17.2px;
+}
+.avatarsParent {
+  width: 59px;
+  position: relative;
+  height: 58px;
+}
+.marthaStewartJohnsonContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-14);
+  line-height: 130%;
+  color: var(--Dark1);
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  font-size: 12.1px;
+  color: var(--Light-Text);
+}
+.frameItem {
+  width: 58px;
+  height: 58px;
+  position: relative;
+  object-fit: contain;
+}
+.andrewJohnson {
+  align-self: stretch;
+  position: relative;
+  line-height: 130%;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.frameInner {
+  width: 59px;
+  height: 58px;
+  position: relative;
+  object-fit: contain;
+}
+.c,
+.groupChild {
+  position: absolute;
+}
+.groupChild {
+  top: -2px;
+  left: -2px;
+  border-radius: 50%;
+  background-color: var(--color-whitesmoke-100);
+  border: 2px solid var(--White);
+  box-sizing: border-box;
+  width: 21.2px;
+  height: 21.2px;
+}
+.c {
+  top: 4.1px;
+  left: 3.1px;
+  line-height: 130%;
+  font-weight: 600;
+}
+.ellipseContainer {
+  width: 58px;
+  position: relative;
+  height: 58px;
+}
+.people,
+.quickSend {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.people {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-20);
+  text-align: center;
+  font-size: var(--font-size-14);
+}
+.quickSend {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-14);
+}
+.recentActivity {
+  position: relative;
+  line-height: 130%;
+  font-weight: 600;
+}
+.transferFromSavings,
+.viewAllTransactions {
+  position: relative;
+  font-size: var(--font-size-16);
+  line-height: 130%;
+  color: var(--Accent);
+}
+.transferFromSavings {
+  font-size: var(--font-size-14);
+  color: var(--Light-Text);
+}
+.fundTransferParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-1);
+}
+.datePlaceholder {
+  position: relative;
+  line-height: 130%;
+  font-weight: 600;
+}
+.datePlaceholderParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-1);
+}
+.cardactions {
+  align-self: stretch;
+  border-radius: var(--br-11);
+  background-color: var(--White);
+  border: 1px solid var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-16) var(--padding-16) var(--padding-14);
+  gap: 0;
+}
+.iconnetflix {
+  height: 37px;
+  width: 37px;
+  position: relative;
+}
+.cardactions1 {
+  align-self: stretch;
+  border-radius: var(--br-11);
+  background-color: var(--White);
+  border: 1px solid var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-16) var(--padding-16) var(--padding-14);
+  gap: 0;
+}
+.parent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-1);
+  color: var(--Accent);
+}
+.cardactions3 {
+  align-self: stretch;
+  border-radius: var(--br-11);
+  background-color: var(--White);
+  border: 1px solid var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-16) var(--padding-16) var(--padding-14);
+  gap: 0;
+}
+.activityCards,
+.activityLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.activityCards {
+  align-self: stretch;
+  gap: var(--gap-4);
+  font-size: var(--font-size-16);
+}
+.activityLeft {
+  flex: 1;
+  gap: var(--gap-30);
+  min-width: 500px;
+  text-align: left;
+  font-size: var(--font-size-18);
+  color: var(--Dark1);
+  font-family: var(--font-inter);
+}
+.graphBars,
+.graphBars1 {
+  position: absolute;
+  top: 0;
+  right: 51.5px;
+  border-radius: 0 66.5px 66.5px 44.54px;
+  border: 29.4px solid var(--color-aquamarine-200);
+  box-sizing: border-box;
+  width: 179px;
+  height: 127.3px;
+  mix-blend-mode: screen;
+}
+.graphBars1 {
+  top: 48.5px;
+  right: -0.1px;
+  border-radius: 0 66.5px 66.5px 66.5px;
+}
+.graphBarsParent {
+  width: 230.5px;
+  position: absolute;
+  margin: 0 !important;
+  top: 24px;
+  right: -66px;
+  height: 175.7px;
+  opacity: 0.6;
+  mix-blend-mode: lighten;
+  z-index: 0;
+}
+.creditCard {
+  align-self: stretch;
+  font-weight: 500;
+}
+.balance,
+.creditCard {
+  position: relative;
+  line-height: 100%;
+}
+.bankIdentifier,
+.cardInfo {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-8);
+}
+.bankIdentifier {
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--font-size-14);
+}
+.cardInfo {
+  width: 214px;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 1;
+}
+.cardContentChild {
+  width: 38px;
+  height: 30px;
+  position: absolute;
+  margin: 0 !important;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+}
+.h3 {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-20);
+  line-height: 100%;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--Darker);
+  z-index: 3;
+}
+.cardContent {
+  height: 172px;
+  width: 287px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.09);
+  border-radius: var(--br-11);
+  background: linear-gradient(
+    125.33deg,
+    #03ee7d,
+    #00d8cb 33.33%,
+    #0dc76e 60.86%,
+    #028848
+  );
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-28) var(--padding-20);
+  box-sizing: border-box;
+  position: relative;
+  gap: 0;
+}
+.quickLinks {
+  align-self: stretch;
+  position: relative;
+  line-height: 130%;
+}
+.cardLinks {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-11);
+  color: var(--Dark1);
+}
+.cardContentParent,
+.cardLinks,
+.quickLinksParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.quickLinksParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-12);
+  color: var(--Light-Text);
+}
+.cardContentParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 33px;
+  font-size: var(--font-size-16);
+}
+.amazonPrime,
+.div5,
+.jul152024,
+.today {
+  position: relative;
+  font-size: var(--font-size-14);
+  line-height: 130%;
+  color: var(--Accent);
+}
+.amazonPrime,
+.div5,
+.jul152024 {
+  font-size: var(--font-size-16);
+  font-family: var(--font-inter);
+  color: var(--Dark1);
+  text-align: left;
+}
+.div5,
+.jul152024 {
+  font-size: var(--font-size-14);
+  color: var(--Light-Text);
+}
+.div5 {
+  font-size: var(--font-size-16);
+  font-weight: 600;
+  color: var(--Dark1);
+}
+.cardactions5 {
+  cursor: pointer;
+  border: 1px solid var(--color-whitesmoke-100);
+  padding: var(--padding-16) var(--padding-16) var(--padding-14);
+  background-color: var(--White);
+  align-self: stretch;
+  border-radius: var(--br-11);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0;
+}
+.activitySection,
+.container1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.activitySection {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-30);
+}
+.container1 {
+  width: 100%;
+  flex-direction: column;
+  gap: var(--gap-24);
+  max-width: 1280px;
+  text-align: left;
+  font-size: var(--font-size-18);
+  color: var(--Dark1);
+  font-family: var(--font-inter);
+}
+.body,
+.copyright,
+.legalLinks {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.body {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-24);
+}
+.copyright,
+.legalLinks {
+  flex-direction: row;
+  gap: var(--gap-10);
+}
+.legalLinks {
+  color: var(--Accent);
+}
+.copyright {
+  flex: 1;
+}
+.akarIconsfacebookFill,
+.vectorIcon {
+  height: 25.5px;
+  width: 25.5px;
+  position: relative;
+}
+.akarIconsfacebookFill {
+  width: 25.2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.container2,
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10.3px;
+}
+.container2 {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0;
+  max-width: 1280px;
+}
+.bgsHomepage1440px,
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer {
+  align-self: stretch;
+  border-top: 1px solid var(--color-whitesmoke-100);
+  justify-content: center;
+  padding: var(--padding-14) var(--padding-24);
+  text-align: left;
+  font-size: var(--font-size-14);
+  color: var(--Dark1);
+  font-family: var(--font-inter);
+}
+.bgsHomepage1440px {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray);
+  overflow: hidden;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 960px) {
+  .image1Icon,
+  .needAnyHelp {
+    display: block;
+    width: 142px;
+    height: 36px;
+  }
+  .needAnyHelp {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-14);
+    text-align: left;
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+  .languageDropdownIcon {
+    display: block;
+    width: 6.66px;
+    height: 3.33px;
+    border: 0 solid var(--Light-Text);
+    box-sizing: border-box;
+  }
+  .engParent,
+  .helpMenu {
+    display: flex;
+    width: auto;
+    align-self: unset;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .engParent {
+    gap: 7px;
+    justify-content: center;
+    border-radius: var(--br-4);
+    padding: var(--padding-4) var(--padding-8);
+  }
+  .helpMenu {
+    gap: 9px !important;
+    justify-content: flex-start;
+    padding: var(--padding-5) 17px var(--padding-5) 0;
+  }
+  .iconamoonsearch {
+    display: block;
+    width: 20px;
+    height: 20px;
+  }
+  .icons {
+    display: flex;
+    width: auto;
+    align-self: unset;
+    height: auto;
+    flex-direction: row;
+    gap: 9px !important;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .avatarIcon {
+    display: block;
+    width: 35px;
+    height: 35px;
+  }
+  .container,
+  .header,
+  .menuRight,
+  .userMenu {
+    display: flex;
+    gap: 9px !important;
+    align-items: center;
+  }
+  .menuRight,
+  .userMenu {
+    width: auto;
+    align-self: unset;
+    height: auto;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .container,
+  .header {
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+    height: 36px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 var(--padding-20);
+    max-width: 1320;
+  }
+  .header {
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--padding-14) 0;
+  }
+  .chandlerBing,
+  .welcomeBack {
+    font-family: var(--font-inter);
+    line-height: 100%;
+    text-align: left;
+    display: block;
+  }
+  .welcomeBack {
+    font-size: var(--font-size-18);
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .chandlerBing {
+    font-weight: 700;
+    font-size: 39.29px;
+  }
+  .chandlerBing,
+  .requestPayment1,
+  .welcom {
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+  .welcom {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-5);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .requestPayment1 {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-16);
+    line-height: 100%;
+    text-align: left;
+    display: block;
+  }
+  .requestPayment {
+    display: flex;
+    flex: 1;
+    height: auto;
+    flex-direction: row;
+    gap: 9px !important;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--br-4);
+    padding: var(--padding-16) var(--padding-18);
+    box-sizing: border-box;
+    border: 1px solid var(--Accent);
+  }
+  .sendMoneyChild {
+    display: block;
+    width: 11.47px;
+    height: 8.9px;
+  }
+  .buttonsSet,
+  .sendMoney {
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+  }
+  .sendMoney {
+    flex: 1;
+    gap: 9px !important;
+    justify-content: center;
+    border-radius: var(--br-4);
+    padding: var(--padding-16) var(--padding-18);
+    box-sizing: border-box;
+  }
+  .buttonsSet {
+    width: 372px;
+    gap: var(--gap-8);
+    justify-content: flex-start;
+  }
+  .checkingAccount,
+  .titleSection {
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .titleSection {
+    display: flex;
+    flex-direction: row;
+    gap: 9px !important;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .checkingAccount {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-16);
+    line-height: 100%;
+    text-align: left;
+    display: block;
+  }
+  .spacer,
+  .streamlinebankIcon {
+    display: block;
+    width: 16px;
+    height: 16px;
+  }
+  .spacer {
+    font-weight: 600;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-18);
+    line-height: 100%;
+    text-align: left;
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+  .checkingAccountParent,
+  .streamlinebankParent {
+    display: flex;
+    height: auto;
+    gap: var(--gap-8);
+    justify-content: flex-start;
+  }
+  .streamlinebankParent {
+    width: auto;
+    align-self: unset;
+    flex-direction: row;
+    align-items: center;
+  }
+  .checkingAccountParent {
+    width: 214px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .cardIcon {
+    font-weight: 700;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-32);
+    line-height: 100%;
+    text-align: left;
+    display: block;
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+  .iconbars {
+    display: block;
+    width: 20px;
+    height: 20px;
+  }
+  .accountInfo,
+  .cardaccount {
+    display: flex;
+    height: auto;
+    gap: 9px !important;
+    justify-content: flex-start;
+  }
+  .cardaccount {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: var(--br-11);
+    padding: var(--padding-36) var(--padding-30);
+    box-sizing: border-box;
+    border: 1px solid var(--Light-grey-border);
+    max-width: initial;
+  }
+  .accountInfo {
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    min-width: 500;
+  }
+  .registerCardChild {
+    display: flex;
+    width: 76.76px;
+    align-self: stretch;
+    height: auto;
+    flex-direction: column;
+  }
+  .haveDedicatedFinancial,
+  .registerABusiness {
+    font-family: var(--font-inter);
+    line-height: 140%;
+    text-align: left;
+    display: block;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .registerABusiness {
+    font-weight: 700;
+    font-size: var(--font-size-20);
+  }
+  .haveDedicatedFinancial {
+    font-size: var(--font-size-16);
+  }
+  .registerABusinessAccountParent {
+    display: flex;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    gap: var(--gap-4);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .setupYourAccount {
+    font-weight: 500;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-16);
+    line-height: 140%;
+    text-align: left;
+    display: block;
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+  .registerCardInfo,
+  .setupYourAccountParent {
+    display: flex;
+    height: auto;
+    justify-content: flex-start;
+  }
+  .setupYourAccountParent {
+    width: auto;
+    align-self: unset;
+    flex-direction: row;
+    gap: 9px !important;
+    align-items: center;
+    border-radius: 17px;
+    padding: var(--padding-8) var(--padding-16);
+    box-sizing: border-box;
+  }
+  .registerCardInfo {
+    flex: 1;
+    flex-direction: column;
+    gap: 9px;
+    align-items: flex-start;
+  }
+  .accountOverview,
+  .overviewCards,
+  .registerCard {
+    display: flex;
+    height: auto;
+    gap: 9px !important;
+    justify-content: flex-start;
+  }
+  .registerCard {
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    border-radius: var(--br-11);
+    padding: var(--padding-24) var(--padding-26);
+    box-sizing: border-box;
+    border: 1px solid var(--color-deepskyblue-100);
+    min-width: 500;
+  }
+  .accountOverview,
+  .overviewCards {
+    align-self: stretch;
+    width: auto;
+  }
+  .overviewCards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+  }
+  .accountOverview {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .customise {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-16);
+    line-height: 130%;
+    text-align: left;
+    display: block;
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+  .customiseWrapper,
+  .title {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    gap: 9px !important;
+    align-items: center;
+  }
+  .customiseWrapper {
+    align-self: unset;
+    justify-content: center;
+    border-radius: 27px;
+    padding: var(--padding-6) var(--padding-14);
+    box-sizing: border-box;
+  }
+  .title {
+    align-self: stretch;
+    justify-content: space-between;
+  }
+  .icon,
+  .text {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
+  .text {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-16);
+    line-height: 130%;
+    text-align: center;
+    align-self: stretch;
+    width: auto;
+    height: 42px;
+  }
+  .calltoactioncard {
+    display: flex;
+    width: 133.33px;
+    height: auto;
+    flex-direction: column;
+    gap: 9px !important;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: var(--br-11);
+    padding: var(--padding-16);
+    box-sizing: border-box;
+    border: 1px solid var(--Light-grey-border);
+  }
+  .text2,
+  .text6 {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-16);
+    line-height: 130%;
+    text-align: center;
+    display: block;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .text6 {
+    height: 42px;
+  }
+  .actionButtons,
+  .calltoactioncard6,
+  .calltoactioncard8 {
+    display: flex;
+    gap: 9px !important;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .calltoactioncard6,
+  .calltoactioncard8 {
+    width: 133.33px;
+    height: auto;
+    flex-direction: column;
+    border-radius: var(--br-11);
+    padding: var(--padding-16);
+    box-sizing: border-box;
+    border: 1px solid var(--Light-grey-border);
+  }
+  .actionButtons {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .actionButtons,
+  .quickActions,
+  .quickSend1 {
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .quickActions {
+    display: flex;
+    flex-direction: column;
+    gap: 9px !important;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .quickSend1 {
+    font-weight: 600;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-18);
+    line-height: 130%;
+    text-align: left;
+    display: block;
+  }
+  .josephYoh,
+  .peopleItemsIcon {
+    display: block;
+    width: 60px;
+    height: 58px;
+  }
+  .josephYoh {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-14);
+    line-height: 130%;
+    text-align: center;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .peopleItemsParent {
+    display: flex;
+    flex: 1;
+    height: auto;
+    flex-direction: column;
+    gap: 9px;
+    align-items: center;
+    justify-content: center;
+  }
+  .avatarsIcon {
+    display: block;
+    width: 59.07px;
+    height: 58.5px;
+  }
+  .initialBackgrounds {
+    display: block;
+    width: 21.18px;
+    height: 21.18px;
+    border: 2px solid var(--White);
+    box-sizing: border-box;
+  }
+  .d {
+    font-weight: 600;
+    font-family: var(--font-inter);
+    font-size: 12.11px;
+    line-height: 130%;
+    text-align: center;
+    display: block;
+    height: auto;
+  }
+  .initialBackgroundsParent {
+    display: block;
+    width: 17.18px;
+    height: 17.18px;
+  }
+  .avatarsParent {
+    display: block;
+    width: 59px;
+    height: 58px;
+    gap: 0;
+  }
+  .marthaStewartJohnsonContainer {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-14);
+    line-height: 130%;
+    text-align: center;
+    display: block;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .frameParent {
+    display: flex;
+    flex: 1;
+    height: auto;
+    flex-direction: column;
+    gap: 9px;
+    align-items: center;
+    justify-content: center;
+  }
+  .frameItem {
+    display: block;
+    width: 58px;
+    height: 58px;
+  }
+  .andrewJohnson {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-14);
+    line-height: 130%;
+    text-align: center;
+    display: block;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .frameInner,
+  .groupChild {
+    display: block;
+    width: 59px;
+    height: 58px;
+  }
+  .groupChild {
+    width: 21.18px;
+    height: 21.18px;
+    border: 2px solid var(--White);
+    box-sizing: border-box;
+  }
+  .c {
+    font-weight: 600;
+    font-family: var(--font-inter);
+    font-size: 12.11px;
+    line-height: 130%;
+    text-align: center;
+    display: block;
+    height: auto;
+  }
+  .ellipseContainer {
+    display: block;
+    width: 58px;
+    height: 58px;
+    gap: 0;
+  }
+  .people,
+  .quickSend {
+    display: flex;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    gap: 9px !important;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .quickSend {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .recentActivity {
+    font-weight: 600;
+    font-size: var(--font-size-18);
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+  .recentActivity,
+  .transferFromSavings,
+  .viewAllTransactions {
+    font-family: var(--font-inter);
+    line-height: 130%;
+    text-align: left;
+    display: block;
+  }
+  .viewAllTransactions {
+    font-size: var(--font-size-16);
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+  .transferFromSavings {
+    font-size: var(--font-size-14);
+  }
+  .datePlaceholder,
+  .fundTransferParent,
+  .transferFromSavings {
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+  .fundTransferParent {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-1);
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .datePlaceholder {
+    font-weight: 600;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-16);
+    line-height: 130%;
+    text-align: left;
+    display: block;
+  }
+  .datePlaceholderParent {
+    display: flex;
+    width: auto;
+    align-self: unset;
+    height: auto;
+    flex-direction: column;
+    gap: var(--gap-1);
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .cardactions {
+    display: flex;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    gap: 9px !important;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: var(--br-11);
+    padding: var(--padding-16) var(--padding-16) var(--padding-14);
+    box-sizing: border-box;
+    border: 1px solid var(--Light-grey-border);
+  }
+  .iconnetflix {
+    display: block;
+    width: 37px;
+    height: 37px;
+  }
+  .cardactions1 {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 9px !important;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: var(--br-11);
+    padding: var(--padding-16) var(--padding-16) var(--padding-14);
+    box-sizing: border-box;
+    border: 1px solid var(--Light-grey-border);
+  }
+  .cardactions1,
+  .cardactions3,
+  .parent1 {
+    display: flex;
+    width: auto;
+    height: auto;
+  }
+  .parent1 {
+    align-self: unset;
+    flex-direction: column;
+    gap: var(--gap-1);
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .cardactions3 {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 9px !important;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: var(--br-11);
+    padding: var(--padding-16) var(--padding-16) var(--padding-14);
+    box-sizing: border-box;
+    border: 1px solid var(--Light-grey-border);
+  }
+  .activityCards,
+  .activityLeft {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .activityCards {
+    align-self: stretch;
+    width: auto;
+    gap: var(--gap-4);
+  }
+  .activityLeft {
+    flex: 1;
+    gap: 9px !important;
+    min-width: 500;
+  }
+  .graphBars,
+  .graphBars1 {
+    mix-blend-mode: screen;
+    display: block;
+    width: 178.96px;
+    height: 127.26px;
+    border-radius: 0 66.5px 66.5px 44.54px;
+    border: 29.4px solid var(--color-aquamarine-100);
+    box-sizing: border-box;
+  }
+  .graphBars1 {
+    border-radius: 0 66.5px 66.5px 66.5px;
+  }
+  .graphBarsParent {
+    mix-blend-mode: lighten;
+    display: block;
+    width: 230.53px;
+    height: 175.73px;
+  }
+  .balance,
+  .creditCard {
+    font-family: var(--font-inter);
+    line-height: 100%;
+    text-align: left;
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  .creditCard {
+    font-weight: 500;
+    font-size: var(--font-size-16);
+    align-self: stretch;
+  }
+  .balance {
+    font-size: var(--font-size-14);
+    align-self: unset;
+  }
+  .bankIdentifier,
+  .cardInfo {
+    display: flex;
+    height: auto;
+    gap: var(--gap-8);
+    justify-content: flex-start;
+  }
+  .bankIdentifier {
+    width: auto;
+    align-self: unset;
+    flex-direction: row;
+    align-items: center;
+  }
+  .cardInfo {
+    width: 214px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .cardContentChild,
+  .h3 {
+    display: block;
+    width: 38px;
+    height: 30px;
+  }
+  .h3 {
+    font-weight: 700;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-20);
+    line-height: 100%;
+    text-align: left;
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+  .cardContent {
+    display: flex;
+    width: 287px;
+    height: 172px;
+    flex-direction: column;
+    gap: 9px !important;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: var(--br-11);
+    padding: var(--padding-28) var(--padding-20);
+    box-sizing: border-box;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.09);
+  }
+  .cardLinks,
+  .quickLinks {
+    align-self: stretch;
+    width: auto;
+  }
+  .quickLinks {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-16);
+    line-height: 130%;
+    text-align: left;
+    display: block;
+    height: auto;
+  }
+  .cardLinks {
+    flex-direction: column;
+  }
+  .cardContentParent,
+  .cardLinks,
+  .quickLinksParent {
+    display: flex;
+    height: auto;
+    gap: 9px !important;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .quickLinksParent {
+    flex: 1;
+    flex-direction: column;
+  }
+  .cardContentParent {
+    align-self: stretch;
+    width: auto;
+    flex-direction: row;
+  }
+  .amazonPrime,
+  .div5,
+  .jul152024,
+  .today {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-14);
+    line-height: 130%;
+    text-align: left;
+    display: block;
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+  .amazonPrime,
+  .div5,
+  .jul152024 {
+    font-size: var(--font-size-16);
+  }
+  .div5,
+  .jul152024 {
+    font-size: var(--font-size-14);
+  }
+  .div5 {
+    font-weight: 600;
+    font-size: var(--font-size-16);
+  }
+  .activitySection,
+  .cardactions5 {
+    align-self: stretch;
+    width: auto;
+    flex-direction: row;
+  }
+  .cardactions5 {
+    display: flex;
+    height: auto;
+    gap: 9px !important;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: var(--br-11);
+    padding: var(--padding-16) var(--padding-16) var(--padding-14);
+    box-sizing: border-box;
+    border: 1px solid var(--Light-grey-border);
+  }
+  .activitySection {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+  .activitySection,
+  .body,
+  .container1,
+  .copyright,
+  .legalLinks {
+    display: flex;
+    height: auto;
+    gap: 9px !important;
+    justify-content: flex-start;
+  }
+  .container1 {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1280;
+  }
+  .body,
+  .copyright,
+  .legalLinks {
+    align-items: center;
+  }
+  .body {
+    align-self: stretch;
+    width: auto;
+    flex-direction: column;
+    padding: var(--padding-24);
+    box-sizing: border-box;
+  }
+  .copyright,
+  .legalLinks {
+    flex-direction: row;
+  }
+  .legalLinks {
+    width: auto;
+    align-self: unset;
+  }
+  .copyright {
+    flex: 1;
+  }
+  .akarIconsfacebookFill,
+  .vectorIcon {
+    display: block;
+    width: 25.55px;
+    height: 25.55px;
+  }
+  .akarIconsfacebookFill {
+    width: 25.21px;
+  }
+  .socials {
+    display: flex;
+    width: auto;
+    align-self: unset;
+    height: auto;
+    flex-direction: row;
+    gap: 9px !important;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .bgsHomepage1440px,
+  .container2,
+  .footer {
+    display: flex;
+    height: auto;
+    align-items: center;
+  }
+  .container2 {
+    width: 100%;
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-between;
+    max-width: 1280;
+  }
+  .bgsHomepage1440px,
+  .footer {
+    flex-direction: column;
+  }
+  .footer {
+    align-self: stretch;
+    width: auto;
+    gap: 9px !important;
+    justify-content: center;
+    padding: var(--padding-14) var(--padding-24);
+    box-sizing: border-box;
+  }
+  .bgsHomepage1440px {
+    gap: 0;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 420px) {
+  .image1Icon,
+  .needAnyHelp {
+    display: block;
+    width: 142px;
+    height: 36px;
+  }
+  .needAnyHelp {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-14);
+    text-align: left;
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+  .languageDropdownIcon {
+    display: block;
+    width: 6.66px;
+    height: 3.33px;
+    border: 0 solid var(--Light-Text);
+    box-sizing: border-box;
+  }
+  .engParent,
+  .helpMenu {
+    width: auto;
+    align-self: unset;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .engParent {
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    border-radius: var(--br-4);
+    padding: var(--padding-4) var(--padding-8);
+  }
+  .helpMenu {
+    display: none;
+    gap: 9px !important;
+    justify-content: flex-start;
+    padding: var(--padding-5) 17px var(--padding-5) 0;
+  }
+  .iconamoonsearch {
+    display: block;
+    width: 20px;
+    height: 20px;
+  }
+  .icons {
+    display: flex;
+    width: auto;
+    align-self: unset;
+    height: auto;
+    flex-direction: row;
+    gap: 9px !important;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .avatarIcon {
+    display: block;
+    width: 35px;
+    height: 35px;
+  }
+  .container,
+  .header,
+  .menuRight,
+  .userMenu {
+    display: flex;
+    gap: 9px !important;
+    align-items: center;
+  }
+  .menuRight,
+  .userMenu {
+    width: auto;
+    align-self: unset;
+    height: auto;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .container,
+  .header {
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+    height: 36px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 var(--padding-20);
+    max-width: 1320;
+  }
+  .header {
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--padding-14) 0;
+  }
+  .chandlerBing,
+  .welcomeBack {
+    font-family: var(--font-inter);
+    line-height: 100%;
+    text-align: left;
+    display: block;
+  }
+  .welcomeBack {
+    font-size: var(--font-size-18);
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .chandlerBing {
+    font-weight: 700;
+    font-size: 39.29px;
+  }
+  .chandlerBing,
+  .requestPayment1,
+  .welcom {
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+  .welcom {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-5);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .requestPayment1 {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-16);
+    line-height: 100%;
+    text-align: left;
+    display: block;
+  }
+  .requestPayment {
+    display: flex;
+    flex: 1;
+    height: auto;
+    flex-direction: row;
+    gap: 9px !important;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--br-4);
+    padding: var(--padding-16) var(--padding-18);
+    box-sizing: border-box;
+    border: 1px solid var(--Accent);
+  }
+  .sendMoneyChild {
+    display: block;
+    width: 11.47px;
+    height: 8.9px;
+  }
+  .buttonsSet,
+  .sendMoney {
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+  }
+  .sendMoney {
+    flex: 1;
+    gap: 9px !important;
+    justify-content: center;
+    border-radius: var(--br-4);
+    padding: var(--padding-16) var(--padding-18);
+    box-sizing: border-box;
+  }
+  .buttonsSet {
+    width: 372px;
+    gap: var(--gap-8);
+    justify-content: flex-start;
+  }
+  .checkingAccount,
+  .titleSection {
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .titleSection {
+    display: flex;
+    flex-direction: column;
+    gap: 9px !important;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .checkingAccount {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-16);
+    line-height: 100%;
+    text-align: left;
+    display: block;
+  }
+  .spacer,
+  .streamlinebankIcon {
+    display: block;
+    width: 16px;
+    height: 16px;
+  }
+  .spacer {
+    font-weight: 600;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-18);
+    line-height: 100%;
+    text-align: left;
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+  .checkingAccountParent,
+  .streamlinebankParent {
+    display: flex;
+    height: auto;
+    gap: var(--gap-8);
+    justify-content: flex-start;
+  }
+  .streamlinebankParent {
+    width: auto;
+    align-self: unset;
+    flex-direction: row;
+    align-items: center;
+  }
+  .checkingAccountParent {
+    width: 214px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .cardIcon {
+    font-weight: 700;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-32);
+    line-height: 100%;
+    text-align: left;
+    display: block;
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+  .iconbars {
+    display: block;
+    width: 20px;
+    height: 20px;
+  }
+  .cardaccount {
+    width: 100%;
+    gap: 9px !important;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: var(--br-11);
+    padding: var(--padding-36) var(--padding-30);
+    box-sizing: border-box;
+    border: 1px solid var(--Light-grey-border);
+    max-width: initial;
+    flex: unset;
+  }
+  .accountInfo,
+  .cardaccount,
+  .registerCardChild {
+    display: flex;
+    align-self: stretch;
+    height: auto;
+    flex-direction: column;
+  }
+  .accountInfo {
+    width: auto;
+    gap: 9px !important;
+    align-items: flex-start;
+    justify-content: center;
+    min-width: initial;
+    flex: unset;
+  }
+  .registerCardChild {
+    width: 76.76px;
+  }
+  .haveDedicatedFinancial,
+  .registerABusiness {
+    font-family: var(--font-inter);
+    line-height: 140%;
+    text-align: left;
+    display: block;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .registerABusiness {
+    font-weight: 700;
+    font-size: var(--font-size-20);
+  }
+  .haveDedicatedFinancial {
+    font-size: var(--font-size-16);
+  }
+  .registerABusinessAccountParent {
+    display: flex;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    gap: var(--gap-4);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .setupYourAccount {
+    font-weight: 500;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-16);
+    line-height: 140%;
+    text-align: left;
+    display: block;
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+  .registerCardInfo,
+  .setupYourAccountParent {
+    display: flex;
+    height: auto;
+    justify-content: flex-start;
+  }
+  .setupYourAccountParent {
+    width: auto;
+    align-self: unset;
+    flex-direction: row;
+    gap: 9px !important;
+    align-items: center;
+    border-radius: 17px;
+    padding: var(--padding-8) var(--padding-16);
+    box-sizing: border-box;
+  }
+  .registerCardInfo {
+    flex: 1;
+    flex-direction: column;
+    gap: 9px;
+    align-items: flex-start;
+  }
+  .accountOverview,
+  .overviewCards,
+  .registerCard {
+    display: flex;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    gap: 9px !important;
+  }
+  .registerCard {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: var(--br-11);
+    padding: var(--padding-24) var(--padding-26);
+    box-sizing: border-box;
+    border: 1px solid var(--color-deepskyblue-100);
+    min-width: initial;
+  }
+  .accountOverview,
+  .overviewCards {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .accountOverview {
+    justify-content: flex-start;
+  }
+  .customise {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-16);
+    line-height: 130%;
+    text-align: left;
+    display: block;
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+  .customiseWrapper,
+  .title {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    gap: 9px !important;
+    align-items: center;
+  }
+  .customiseWrapper {
+    align-self: unset;
+    justify-content: center;
+    border-radius: 27px;
+    padding: var(--padding-6) var(--padding-14);
+    box-sizing: border-box;
+  }
+  .title {
+    align-self: stretch;
+    justify-content: space-between;
+  }
+  .icon,
+  .text {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
+  .text {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-16);
+    line-height: 130%;
+    text-align: center;
+    align-self: stretch;
+    width: auto;
+    height: 42px;
+  }
+  .calltoactioncard {
+    display: flex;
+    flex: 1;
+    height: auto;
+    flex-direction: column;
+    gap: 9px !important;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: var(--br-11);
+    padding: var(--padding-16);
+    box-sizing: border-box;
+    border: 1px solid var(--Light-grey-border);
+    min-width: 181;
+  }
+  .text2,
+  .text6 {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-16);
+    line-height: 130%;
+    text-align: center;
+    display: block;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .text6 {
+    height: 42px;
+  }
+  .calltoactioncard6 {
+    flex: 1;
+    height: auto;
+    flex-direction: column;
+    border-radius: var(--br-11);
+    padding: var(--padding-16);
+    box-sizing: border-box;
+    border: 1px solid var(--Light-grey-border);
+    min-width: 181;
+  }
+  .actionButtons,
+  .calltoactioncard6,
+  .calltoactioncard8 {
+    display: flex;
+    gap: 9px !important;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .calltoactioncard8 {
+    flex: 1;
+    height: auto;
+    flex-direction: column;
+    border-radius: var(--br-11);
+    padding: var(--padding-16);
+    box-sizing: border-box;
+    border: 1px solid var(--Light-grey-border);
+    min-width: 181;
+    max-width: 181;
+  }
+  .actionButtons {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .actionButtons,
+  .quickActions,
+  .quickSend1 {
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .quickActions {
+    display: flex;
+    flex-direction: column;
+    gap: 9px !important;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .quickSend1 {
+    font-weight: 600;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-18);
+    line-height: 130%;
+    text-align: left;
+    display: block;
+  }
+  .josephYoh,
+  .peopleItemsIcon {
+    display: block;
+    width: 60px;
+    height: 58px;
+  }
+  .josephYoh {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-14);
+    line-height: 130%;
+    text-align: center;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .peopleItemsParent {
+    display: flex;
+    width: 54.29px;
+    height: auto;
+    flex-direction: column;
+    gap: 9px;
+    align-items: center;
+    justify-content: center;
+  }
+  .avatarsIcon {
+    display: block;
+    width: 59.07px;
+    height: 58.5px;
+  }
+  .initialBackgrounds {
+    display: block;
+    width: 21.18px;
+    height: 21.18px;
+    border: 2px solid var(--White);
+    box-sizing: border-box;
+  }
+  .d {
+    font-weight: 600;
+    font-family: var(--font-inter);
+    font-size: 12.11px;
+    line-height: 130%;
+    text-align: center;
+    display: block;
+    height: auto;
+  }
+  .initialBackgroundsParent {
+    display: block;
+    width: 17.18px;
+    height: 17.18px;
+  }
+  .avatarsParent {
+    display: block;
+    width: 59px;
+    height: 58px;
+    gap: 0;
+  }
+  .marthaStewartJohnsonContainer {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-14);
+    line-height: 130%;
+    text-align: center;
+    display: block;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .frameParent {
+    display: flex;
+    width: 54.29px;
+    height: auto;
+    flex-direction: column;
+    gap: 9px;
+    align-items: center;
+    justify-content: center;
+  }
+  .frameItem {
+    display: block;
+    width: 58px;
+    height: 58px;
+  }
+  .andrewJohnson {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-14);
+    line-height: 130%;
+    text-align: center;
+    display: block;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .frameInner,
+  .groupChild {
+    display: block;
+    width: 59px;
+    height: 58px;
+  }
+  .groupChild {
+    width: 21.18px;
+    height: 21.18px;
+    border: 2px solid var(--White);
+    box-sizing: border-box;
+  }
+  .c {
+    font-weight: 600;
+    font-family: var(--font-inter);
+    font-size: 12.11px;
+    line-height: 130%;
+    text-align: center;
+    display: block;
+    height: auto;
+  }
+  .ellipseContainer {
+    display: block;
+    width: 58px;
+    height: 58px;
+    gap: 0;
+  }
+  .people,
+  .quickSend {
+    display: flex;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    gap: 9px !important;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .quickSend {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .recentActivity {
+    font-weight: 600;
+    font-size: var(--font-size-18);
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+  .recentActivity,
+  .transferFromSavings,
+  .viewAllTransactions {
+    font-family: var(--font-inter);
+    line-height: 130%;
+    text-align: left;
+    display: block;
+  }
+  .viewAllTransactions {
+    font-size: var(--font-size-16);
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+  .transferFromSavings {
+    font-size: var(--font-size-14);
+  }
+  .datePlaceholder,
+  .fundTransferParent,
+  .transferFromSavings {
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+  .fundTransferParent {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-1);
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .datePlaceholder {
+    font-weight: 600;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-16);
+    line-height: 130%;
+    text-align: left;
+    display: block;
+  }
+  .datePlaceholderParent {
+    display: flex;
+    width: auto;
+    align-self: unset;
+    height: auto;
+    flex-direction: column;
+    gap: var(--gap-1);
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .cardactions {
+    display: flex;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    gap: -62px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: var(--br-11);
+    padding: var(--padding-16) var(--padding-16) var(--padding-14);
+    box-sizing: border-box;
+    border: 1px solid var(--Light-grey-border);
+  }
+  .iconnetflix {
+    display: block;
+    width: 37px;
+    height: 37px;
+  }
+  .cardactions1,
+  .parent1 {
+    display: flex;
+    width: auto;
+    height: auto;
+  }
+  .cardactions1 {
+    align-self: stretch;
+    flex-direction: row;
+    gap: -2px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: var(--br-11);
+    padding: var(--padding-16) var(--padding-16) var(--padding-14);
+    box-sizing: border-box;
+    border: 1px solid var(--Light-grey-border);
+  }
+  .parent1 {
+    align-self: unset;
+    flex-direction: column;
+    gap: var(--gap-1);
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .activityCards,
+  .activityLeft,
+  .cardactions3 {
+    display: flex;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .cardactions3 {
+    flex-direction: row;
+    gap: 9px !important;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: var(--br-11);
+    padding: var(--padding-16) var(--padding-16) var(--padding-14);
+    box-sizing: border-box;
+    border: 1px solid var(--Light-grey-border);
+  }
+  .activityCards,
+  .activityLeft {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .activityCards {
+    gap: var(--gap-4);
+  }
+  .activityLeft {
+    gap: 9px !important;
+    min-width: initial;
+    flex: unset;
+  }
+  .graphBars,
+  .graphBars1 {
+    mix-blend-mode: screen;
+    display: block;
+    width: 178.96px;
+    height: 127.26px;
+    border-radius: 0 66.5px 66.5px 44.54px;
+    border: 29.4px solid var(--color-aquamarine-100);
+    box-sizing: border-box;
+  }
+  .graphBars1 {
+    border-radius: 0 66.5px 66.5px 66.5px;
+  }
+  .graphBarsParent {
+    mix-blend-mode: lighten;
+    display: block;
+    width: 230.53px;
+    height: 175.73px;
+  }
+  .balance,
+  .creditCard {
+    font-family: var(--font-inter);
+    line-height: 100%;
+    text-align: left;
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  .creditCard {
+    font-weight: 500;
+    font-size: var(--font-size-16);
+    align-self: stretch;
+  }
+  .balance {
+    font-size: var(--font-size-14);
+    align-self: unset;
+  }
+  .bankIdentifier,
+  .cardInfo {
+    display: flex;
+    height: auto;
+    gap: var(--gap-8);
+    justify-content: flex-start;
+  }
+  .bankIdentifier {
+    width: auto;
+    align-self: unset;
+    flex-direction: row;
+    align-items: center;
+  }
+  .cardInfo {
+    width: 214px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .cardContentChild,
+  .h3 {
+    display: block;
+    width: 38px;
+    height: 30px;
+  }
+  .h3 {
+    font-weight: 700;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-20);
+    line-height: 100%;
+    text-align: left;
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+  .cardContent {
+    display: flex;
+    width: 287px;
+    height: 172px;
+    flex-direction: column;
+    gap: 9px !important;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: var(--br-11);
+    padding: var(--padding-28) var(--padding-20);
+    box-sizing: border-box;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.09);
+  }
+  .cardLinks,
+  .quickLinks {
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .quickLinks {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-16);
+    line-height: 130%;
+    text-align: left;
+    display: block;
+  }
+  .cardLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 9px !important;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .quickLinksParent {
+    flex: unset;
+  }
+  .cardContentParent,
+  .quickLinksParent {
+    display: flex;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    gap: 9px !important;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .today {
+    font-size: var(--font-size-14);
+    width: auto;
+    height: auto;
+  }
+  .amazonPrime,
+  .jul152024,
+  .today {
+    font-family: var(--font-inter);
+    line-height: 130%;
+    text-align: left;
+    display: block;
+    align-self: unset;
+  }
+  .amazonPrime {
+    font-size: var(--font-size-16);
+    width: auto;
+    height: auto;
+  }
+  .jul152024 {
+    font-size: var(--font-size-14);
+  }
+  .cardactions5,
+  .div5,
+  .jul152024 {
+    width: auto;
+    height: auto;
+  }
+  .div5 {
+    font-weight: 600;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-16);
+    line-height: 130%;
+    text-align: left;
+    display: block;
+    align-self: unset;
+  }
+  .cardactions5 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: row;
+    gap: 9px !important;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: var(--br-11);
+    padding: var(--padding-16) var(--padding-16) var(--padding-14);
+    box-sizing: border-box;
+    border: 1px solid var(--Light-grey-border);
+  }
+  .activitySection {
+    align-self: stretch;
+    width: auto;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .activitySection,
+  .body,
+  .container1,
+  .copyright,
+  .legalLinks {
+    display: flex;
+    height: auto;
+    gap: 9px !important;
+    justify-content: flex-start;
+  }
+  .container1 {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1280;
+  }
+  .body,
+  .copyright,
+  .legalLinks {
+    width: auto;
+    align-items: center;
+  }
+  .body {
+    align-self: stretch;
+    flex-direction: column;
+    padding: var(--padding-24);
+    box-sizing: border-box;
+  }
+  .copyright,
+  .legalLinks {
+    align-self: unset;
+    flex-direction: row;
+  }
+  .copyright {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: center;
+    flex: unset;
+  }
+  .akarIconsfacebookFill,
+  .vectorIcon {
+    display: block;
+    width: 25.55px;
+    height: 25.55px;
+  }
+  .akarIconsfacebookFill {
+    width: 25.21px;
+  }
+  .container2,
+  .socials {
+    gap: 9px !important;
+    justify-content: flex-start;
+  }
+  .socials {
+    display: flex;
+    width: auto;
+    align-self: unset;
+    height: auto;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .container2 {
+    width: 100%;
+    max-width: 1280;
+  }
+  .bgsHomepage1440px,
+  .container2,
+  .footer {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer {
+    align-self: stretch;
+    width: auto;
+    gap: 9px !important;
+    justify-content: center;
+    padding: var(--padding-14) var(--padding-24);
+    box-sizing: border-box;
+  }
+  .bgsHomepage1440px {
+    gap: 0;
+    justify-content: flex-start;
+  }
+}

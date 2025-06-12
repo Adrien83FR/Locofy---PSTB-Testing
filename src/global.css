@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* Color */
+  --color-aquamarine-200: rgba(112, 255, 187, 0.57);
+  --color-aquamarine-100: rgba(113, 255, 187, 0.57);
+  --color-springgreen-200: rgba(3, 238, 125, 0.1);
+  --color-springgreen-100: rgba(3, 238, 125, 0.09);
+  --color-deepskyblue-200: rgba(0, 199, 238, 0.05);
+  --color-deepskyblue-100: #00c7ee;
+  --color-whitesmoke-100: #e8eae9;
+  --color-darkslategray-100: #4a4a4a;
+  --color-mediumspringgreen-100: rgba(0, 227, 119, 0.1);
+  --color-dimgray: #525458;
+  --color-gray: #fcfcfc;
+
+  /* Gap */
+  --gap-30: 30px;
+  --gap-4: 4px;
+  --gap-8: 8px;
+  --gap-5: 5px;
+  --gap-11: 11px;
+  --gap-6: 6px;
+  --gap-16: 16px;
+  --gap-20: 20px;
+  --gap-10: 10px;
+  --gap-28: 28px;
+  --gap-1: 1px;
+  --gap-12: 12px;
+  --gap-24: 24px;
+  --gap-14: 14px;
+
+  /* Padding */
+  --padding-28: 28px;
+  --padding-6: 6px;
+  --padding-26: 26px;
+  --padding-30: 30px;
+  --padding-36: 36px;
+  --padding-18: 18px;
+  --padding-12: 12px;
+  --padding-10: 10px;
+  --padding-16: 16px;
+  --padding-24: 24px;
+  --padding-8: 8px;
+  --padding-4: 4px;
+  --padding-5: 5px;
+  --padding-20: 20px;
+  --padding-14: 14px;
+
+  /* BorderRadius */
+  --br-11: 11px;
+  --br-8: 8px;
+  --br-6: 6px;
+  --br-40: 40px;
+  --br-4: 4px;
+
+  /* Font */
+  --font-inter: Inter;
+
+  /* FontSize */
+  --font-size-20: 20px;
+  --font-size-32: 32px;
+  --font-size-18: 18px;
+  --font-size-30: 30px;
+  --font-size-16: 16px;
+  --font-size-14: 14px;
+
+  /* Figma Variables */
+
+  /* Color */
+  --White: #fff;
+  --Light-Text1: #a6a6a6;
+  --Accent1: #00e377;
+  --Light-grey-border: #e8e9e9;
+  --Darker-Gray-Border1: #bbb;
+  --Dark1: #373737;
+  --Darker-Gray-Border: #bbb;
+  --Dark: #373737;
+  --Light-Text: #a6a6a6;
+  --Accent: #00e377;
+  --Darker: #262626;
+}

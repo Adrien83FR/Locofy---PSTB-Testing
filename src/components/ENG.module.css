@@ -1,0 +1,29 @@
+.eng {
+  position: relative;
+  font-size: var(--font-size-14);
+  font-family: var(--font-inter);
+  color: var(--White);
+  text-align: left;
+}
+@media screen and (max-width: 960px) {
+  .eng {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-14);
+    text-align: left;
+    display: block;
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+}
+@media screen and (max-width: 420px) {
+  .eng {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-14);
+    text-align: left;
+    display: block;
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+}
